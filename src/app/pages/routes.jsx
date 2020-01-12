@@ -7,6 +7,7 @@ import MyCalendars from "./MyCalendars/MyCalendars";
 function Routes() {
     return (
         <Switch>
+            
             <Route exact path="/myevents" component={MyEvents} />
             <Route path="/myevents/event/:id" component={EventItems} />
             <Route path = "/myCalendars" component = {MyCalendars} />

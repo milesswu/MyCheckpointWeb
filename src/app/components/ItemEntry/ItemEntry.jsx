@@ -6,7 +6,6 @@ function ItemEntry(props) {
     /*should be const?*/
 
     var { itemName, itemNum, present, updateItem, deleteItem } = props;
-
     return (
         <div>
             <div className="input-group mb-3">

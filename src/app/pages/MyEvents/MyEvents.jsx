@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import EventEntry from "../../components/EventEntry/EventEntry";
 import "./MyEvents.css";
@@ -107,5 +108,4 @@ function MyEvents() {
         </div>
     );
 }
-
 export default MyEvents;
